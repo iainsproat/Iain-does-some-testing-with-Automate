@@ -28,10 +28,6 @@ class FunctionInputs(AutomateBase):
             " it will be marked with an error."
         ),
     )
-    another_type: str = Field(
-        title="Another type",
-        description="This is another type that will be checked.",
-    )
 
 
 def automate_function(
