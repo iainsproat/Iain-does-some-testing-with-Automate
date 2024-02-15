@@ -161,7 +161,7 @@ def test_function_run(automation_run_data: AutomationRunData, speckle_token: str
         automation_context,
         automate_function,
         FunctionInputs(
-            forbidden_speckle_type="Base", whisper_message="testing automatically"
+            forbidden_speckle_type="Base"
         ),
     )
 
